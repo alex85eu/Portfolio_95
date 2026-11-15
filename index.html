@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Alexandru, a front-end web developer who builds responsive, accessible websites from Figma designs with HTML and CSS. See my projects and get in touch.">
+        <title>Alexandru Website Developer, Skills and Portfolio</title>
+        <link rel="stylesheet" href="./alex_portfolio.css">
+        <!--
+            GOOGLE FONTS LINK
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet">
+        
+        <!--
+            ION ICON LINK
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!--
+            HTML BODY
+        -->
+    </head>
+        <body>
+            <main>
+            <header class="header" data-head>
+                <div class="container">
+                    <a href="#" class="h2 logo">
+                        ALEXANDRU
+                    </a>
+                    <nav class="navbar" data-navbar>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-item-link" data-nav-link>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-item-link" data-nav-link>
+                                    Portfolio
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn-toggle-menu" data-toggle-menu aria-label="Hamburger Menu">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </button>
+                </div>
+            </header>  
+            
+            <!--
+                HERO SECTION
+            -->
+
+            <section class="section hero" id="home">
+                <div class="container">
+                  <div class="hero-content">
+                    <h2 class="hero-title">
+                        Websites Developer
+                    </h2>
+                    <ul class="hero-list">
+                        <li class="hero-item">
+                            <span class="span">
+                                Websites Creator 
+                            </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </li>
+                        <li class="hero-item">
+                            <span class="span">
+                                HTML CSS 
+                            </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </li>
+                                              
+                    </ul>
+                 </div>
+                 <div class="figure-banner">
+                      <div class="figure-bck"></div>
+                      <div class="figure-bck-2"></div>
+                 </div>
+
+
+                </div>
+            </section>
+
+            <!--How i work section-->
+            <section class="section working">
+                <div class="container">
+                    <h2 class="working_title">
+                        How I Work!
+                    </h2>
+                    <p class="working_text">
+                        <span>You share the design. </span> Send me your Figma file, and tell me what the site needs to do.
+                    </p>
+                    <p class="working_text">
+                        <span>I build it mobile-first.</span> I turn the design into clean, responsive code, so the site looks right on phones, tablets, and desktops
+                    </p>
+                    <p class="working_text">
+                        <span>You review it.</span>  I send you a working version and compare it against your design, so any differences are caught early.
+                    </p>
+                    <p class="working_text">
+                        <span>I refine it!</span> I make your requested changes, test the site in the main browsers.
+                    </p>
+                </div>
+            </section>
+
+            <!--
+                PORTFOLIO SECTION
+            -->
+            <section class="section portfolio" id="portfolio">
+                <div class="container">
+                    <div class="portfolio_titles_wrapper">
+                    <div class="hero-subtitle">
+                        Portfolio
+                    </div>
+                    <h2 class="h2 hero-title">
+                        Websites
+                    </h2>
+                    </div>
+                    <ul class="portfolio-list">
+                        <li class="portfolio-item">
+                            <div class="portfolio_subtitle">
+                                Foodie Restaurant
+                            </div>
+                            <a href="./hamburger.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./assets/images/foodie_link.jpg" width="240" height="300" alt="Hamburger Restaurant"  class="img-cover">
+                            </a>
+                        </li>
+                        <li class="portfolio-item">
+                            <div class="portfolio_subtitle">
+                                Volti Bycicles 
+                            </div>
+                            <a href="./volti-master.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./assets/images/volti_link.jpg" width="240" height="300" alt="Electric Bycicles" loading="lazy" class="img-cover">
+                            </a>
+                        </li>
+                        <li class="portfolio-item">
+                            <div class="portfolio_subtitle">
+                                It's Fashion Day!
+                            </div>
+                            <a href="./fashion.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./assets/images/Fashion_first_img.jpg" width="240" height="300" alt="Clothes, Fashion" loading="lazy" class="img-cover">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+          
+
+            <!--
+                LINK TO JS 
+            -->      
+            <script src="./alex_portfolio.js"></script>  
+
+        </body>
+    
+</html>
+
+
